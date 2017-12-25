@@ -20,7 +20,7 @@ const _colors = {
 }
 
 const theme = {
-  palette: { ..._colors },
+  palette: _colors,
   fontSize: {
     small: 12,
     medium: 16,
