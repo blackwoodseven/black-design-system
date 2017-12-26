@@ -12,6 +12,10 @@ const styles = {
     '&:hover': {
       background: theme.palette.smoke,
       transition: theme.transition.button
+    },
+    '&:active': {
+      background: color(theme.palette.smoke).darken(0.1).hex(),
+      transition: theme.transition.button
     }
   },
   label: {

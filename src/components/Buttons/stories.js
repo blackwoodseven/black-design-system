@@ -4,8 +4,7 @@ import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
 import { linkTo } from '@storybook/addon-links'
 
-import { RaisedButton, FlatButton } from '../components/Buttons'
-import theme from '../theme'
+import { RaisedButton, FlatButton } from './index'
 
 storiesOf('Button', module)
   .add('Raised Button', () => (
