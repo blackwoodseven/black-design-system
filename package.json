@@ -1,6 +1,6 @@
 {
   "name": "black-design-system",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "private": false,
   "dependencies": {},
   "main": "build/index.js",
@@ -10,7 +10,7 @@
     "react-jss": "^8.2.0"
   },
   "devDependencies": {
-    "react": "^16.2.0",
+    "react": "^15.2.0",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "react-scripts": "1.0.17",
