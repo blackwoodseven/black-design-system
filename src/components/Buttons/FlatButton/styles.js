@@ -1,4 +1,4 @@
-import theme from 'theme'
+import theme from '../../../theme'
 import color from 'color'
 
 const styles = {
@@ -14,7 +14,9 @@ const styles = {
       transition: theme.transition.button
     },
     '&:active': {
-      background: color(theme.palette.smoke).darken(0.1).hex(),
+      background: color(theme.palette.smoke)
+        .darken(0.1)
+        .hex(),
       transition: theme.transition.button
     }
   },

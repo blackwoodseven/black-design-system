@@ -1,4 +1,4 @@
-import theme from 'theme'
+import theme from '../../../theme'
 import color from 'color'
 
 const styles = {
@@ -11,11 +11,15 @@ const styles = {
     outline: 'none',
     boxShadow: theme.boxShadow.default,
     '&:hover': {
-      background: color(theme.palette.turquoise).lighten(0.4).hex(),
+      background: color(theme.palette.turquoise)
+        .lighten(0.4)
+        .hex(),
       transition: theme.transition.button
     },
     '&:active': {
-      background: color(theme.palette.turquoise).lighten(0.3).hex(),
+      background: color(theme.palette.turquoise)
+        .lighten(0.3)
+        .hex(),
       transition: theme.transition.button,
       boxShadow: theme.boxShadow.raised
     }
