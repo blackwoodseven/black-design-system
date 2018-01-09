@@ -1,14 +1,13 @@
 import React from 'react'
-import injectSheet from 'react-jss'
 
-import styles from './styles'
+import './styles.css'
 
-const FlatButton = ({ classes, children, color }) => (
-  <button className={classes.button}>
-    <span className={classes.label} style={{ color: color || '' }}>
+const FlatButton = ({ children, color }) => (
+  <button className="button">
+    <span className="label" style={{ color: color || '' }}>
       {children}
     </span>
   </button>
 )
 
-export default injectSheet(styles)(FlatButton)
+export default FlatButton

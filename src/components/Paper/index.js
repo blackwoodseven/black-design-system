@@ -1,7 +1,6 @@
 import React from 'react'
-import injectSheet from 'react-jss'
 
-import styles from './styles'
+import './styles.css'
 
 // const Paper = ({ classes, children, style, hovereable }) => {
 
@@ -9,13 +8,9 @@ import styles from './styles'
 
 class Paper extends React.Component {
   render() {
-    const containerClasses = this.classSet({
-      paper: true,
-      hovereable: this.props.hovereable
-    })
-
-    return <div className={containerClasses}>{this.props.children}</div>
+    const paper = `paper ${this.props.hovereable ? 'hovereable' : ''}`
+    return <div className="paper">{this.props.children}</div>
   }
 }
 
-export default injectSheet(styles)(Paper)
+export default Paper
