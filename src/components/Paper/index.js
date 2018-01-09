@@ -8,17 +8,13 @@ import styles from './styles'
 // }
 
 class Paper extends React.Component {
-  render () {
+  render() {
     const containerClasses = this.classSet({
       paper: true,
       hovereable: this.props.hovereable
     })
 
-    return (
-      <div className={containerClasses}>
-        {children}
-      </div>
-    )
+    return <div className={containerClasses}>{this.props.children}</div>
   }
 }
 

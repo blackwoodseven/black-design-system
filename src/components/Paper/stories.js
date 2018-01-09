@@ -11,8 +11,11 @@ const style = {
 }
 
 storiesOf('Paper', module).add('Paper', () => (
-  <div className='wrapper'>
-    <Paper onClick={action('clicked')} style={style}> Click Me! </Paper>
+  <div className="wrapper">
+    <Paper onClick={action('clicked')} style={style}>
+      {' '}
+      Click Me!{' '}
+    </Paper>
     <br />
     <Paper onClick={action('clicked')} style={style} hovereable>
       Hover Me!
