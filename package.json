@@ -1,7 +1,8 @@
 {
   "name": "black-design-system",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "private": false,
+  "license": "BSD-2-Clause-FreeBSD",
   "dependencies": {},
   "main": "build/index.js",
   "peerDependencies": {
@@ -27,8 +28,11 @@
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "prepublish": "yarn run build",
-    "clean": "rm -rf node_modules/ && rm -rf build/ && yarn install && yarn build"
+    "clean": "rm -rf node_modules/ && rm -rf build/ && yarn install && yarn build",
+    "test": ""
   },
-  "files": ["build/*"],
+  "files": [
+    "build/*"
+  ],
   "misc": {}
 }
