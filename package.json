@@ -3,7 +3,9 @@
   "version": "0.2.10",
   "private": false,
   "license": "BSD-2-Clause-FreeBSD",
-  "dependencies": {},
+  "dependencies": {
+    "babel-jest": "^22.0.4"
+  },
   "main": "build/index.js",
   "peerDependencies": {
     "color": "^2.0.1",
@@ -15,24 +17,25 @@
     "@storybook/addon-storyshots": "^3.3.6",
     "@storybook/react": "^3.3.6",
     "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "color": "^2.0.1",
+    "jest": "^22.0.5",
     "react": "^15.2.0",
     "react-dom": "^15.6.1",
     "react-scripts": "1.0.17"
   },
   "scripts": {
     "build": "yarn build:es2015 && yarn build:es2015modules",
-    "build:es2015": "NODE_ENV=production babel ./src --ignore *.spec.js,stories.js,*.md --out-dir ./build --copy-files",
+    "build:es2015": "NODE_ENV=production babel ./src --ignore test.js,stories.js,*.md --out-dir ./build --copy-files",
     "build:es2015modules": "NODE_ENV=production BABEL_ENV=modules babel ./src/index.js --out-file ./build/index.es.js",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "prepublish": "yarn run build",
     "clean": "rm -rf node_modules/ && rm -rf build/ && yarn install && yarn build",
-    "test": ""
+    "test": "jest"
   },
-  "files": [
-    "build/*"
-  ],
+  "files": ["build/*"],
+  "jest": {},
   "misc": {}
 }
