@@ -1,15 +1,17 @@
 {
   "name": "black-design-system",
-  "version": "0.2.10",
+  "version": "0.2.11",
   "private": false,
   "license": "BSD-2-Clause-FreeBSD",
   "dependencies": {
-    "babel-jest": "^22.0.4"
+    "babel-jest": "^22.0.4",
+    "material-ui": "^0.20.0"
   },
   "main": "build/index.js",
   "peerDependencies": {
     "color": "^2.0.1",
-    "react": "^15.2.0"
+    "react": "^15.2.0",
+    "react-dom": "^15.6.1"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.3.6",
@@ -39,7 +41,9 @@
     "test": "jest",
     "linter": "yarn prettier 'src/**/*.{js,jsx,json,css}' --write"
   },
-  "files": ["build/*"],
+  "files": [
+    "build/*"
+  ],
   "jest": {},
   "misc": {}
 }
