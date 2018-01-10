@@ -34,7 +34,7 @@
     "build-storybook": "build-storybook -s public",
     "prepublish": "yarn run build",
     "clean": "rm -rf node_modules/ && rm -rf build/ && yarn install && yarn build",
-    "precommit": "yarn linter && yarn test",
+    "git:prepush": "yarn linter && yarn test",
     "test": "jest",
     "linter": "yarn prettier 'src/**/*.{js,jsx,json,css}' --write"
   },
