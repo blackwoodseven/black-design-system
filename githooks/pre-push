@@ -1,1 +1,2 @@
 yarn git:prepush
+exit 1
