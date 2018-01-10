@@ -21,6 +21,7 @@
     "babel-preset-env": "^1.6.1",
     "color": "^2.0.1",
     "jest": "^22.0.5",
+    "prettier": "1.9.2",
     "react": "^15.2.0",
     "react-dom": "^15.6.1",
     "react-scripts": "1.0.17"
@@ -33,7 +34,9 @@
     "build-storybook": "build-storybook -s public",
     "prepublish": "yarn run build",
     "clean": "rm -rf node_modules/ && rm -rf build/ && yarn install && yarn build",
-    "test": "jest"
+    "precommit": "yarn linter && yarn test",
+    "test": "jest",
+    "linter": "yarn prettier 'src/**/*.{js,jsx,json,css}' --write"
   },
   "files": ["build/*"],
   "jest": {},
