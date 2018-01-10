@@ -1,16 +1,4 @@
 import React from 'react'
-
-import './styles.css'
-
-// const Paper = ({ classes, children, style, hovereable }) => {
-
-// }
-
-class Paper extends React.Component {
-  render() {
-    const paper = `paper ${this.props.hovereable ? 'hovereable' : ''}`
-    return <div className="paper">{this.props.children}</div>
-  }
-}
+import Paper from 'material-ui/Paper'
 
 export default Paper
