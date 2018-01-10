@@ -1,13 +1,12 @@
 {
   "name": "black-design-system",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "private": false,
   "dependencies": {},
   "main": "build/index.js",
   "peerDependencies": {
     "color": "^2.0.1",
-    "react": "^15.2.0",
-    "react-dom": "^15.6.1"
+    "react": "^15.2.0"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.3.6",
@@ -23,11 +22,12 @@
   },
   "scripts": {
     "build": "yarn build:es2015 && yarn build:es2015modules",
-    "build:es2015": "NODE_ENV=production babel ./src --ignore *.spec.js,stories.js --out-dir ./build",
+    "build:es2015": "NODE_ENV=production babel ./src --ignore *.spec.js,stories.js,*.md --out-dir ./build --copy-files",
     "build:es2015modules": "NODE_ENV=production BABEL_ENV=modules babel ./src/index.js --out-file ./build/index.es.js",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
-    "prepublish": "yarn run build"
+    "prepublish": "yarn run build",
+    "clean": "rm -rf node_modules/ && rm -rf build/ && yarn install && yarn build"
   },
   "files": ["build/*"],
   "misc": {}
