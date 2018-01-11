@@ -15,6 +15,7 @@ import Card from './components/Card'
 import CardActions from './components/CardActions'
 import CardHeader from './components/CardHeader'
 import CardText from './components/CardText'
+import Checkbox from './components/Checkbox'
 
 export {
   Paper,
@@ -33,5 +34,6 @@ export {
   Card,
   CardActions,
   CardHeader,
-  CardText
+  CardText,
+  Checkbox
 }
