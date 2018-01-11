@@ -30,6 +30,7 @@ import TableHeader from './components/TableHeader'
 import TableHeaderColumn from './components/TableHeaderColumn'
 import Snackbar from './components/Snackbar'
 import SelectField from './components/SelectField'
+import LinearProgress from './components/LinearProgress'
 
 export {
   Paper,
@@ -63,5 +64,6 @@ export {
   TableHeader,
   TableHeaderColumn,
   Snackbar,
-  SelectField
+  SelectField,
+  LinearProgress
 }
