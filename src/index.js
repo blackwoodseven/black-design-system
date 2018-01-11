@@ -20,6 +20,8 @@ import Checkbox from './components/Checkbox'
 import Avatar from './components/Avatar'
 import List from './components/List'
 import ListItem from './components/ListItem'
+import Tabs from './components/Tabs'
+import Tab from './components/Tab'
 
 export {
   Paper,
@@ -43,5 +45,7 @@ export {
   Checkbox,
   Avatar,
   List,
-  ListItem
+  ListItem,
+  Tabs,
+  Tab
 }
