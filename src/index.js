@@ -29,6 +29,7 @@ import TableRowColumn from './components/TableRowColumn'
 import TableHeader from './components/TableHeader'
 import TableHeaderColumn from './components/TableHeaderColumn'
 import Snackbar from './components/Snackbar'
+import SelectField from './components/SelectField'
 
 export {
   Paper,
@@ -61,5 +62,6 @@ export {
   TableRowColumn,
   TableHeader,
   TableHeaderColumn,
-  Snackbar
+  Snackbar,
+  SelectField
 }
