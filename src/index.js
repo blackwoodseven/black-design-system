@@ -31,6 +31,7 @@ import TableHeaderColumn from './components/TableHeaderColumn'
 import Snackbar from './components/Snackbar'
 import SelectField from './components/SelectField'
 import LinearProgress from './components/LinearProgress'
+import DropDownMenu from './components/DropDownMenu'
 
 export {
   Paper,
@@ -65,5 +66,6 @@ export {
   TableHeaderColumn,
   Snackbar,
   SelectField,
-  LinearProgress
+  LinearProgress,
+  DropDownMenu
 }
