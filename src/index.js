@@ -5,6 +5,7 @@ import ToolbarTitle from './components/ToolbarTitle'
 import FlatButton from './components/FlatButton'
 import RaisedButton from './components/RaisedButton'
 import IconButton from './components/IconButton'
+import FloatingActionButton from './components/FloatingActionButton'
 import Menu from './components/Menu'
 import MenuItem from './components/MenuItem'
 import TextField from './components/TextField'
@@ -23,5 +24,6 @@ export {
   MenuItem,
   TextField,
   Dialog,
-  Popover
+  Popover,
+  FloatingActionButton
 }
