@@ -36,6 +36,7 @@ import Divider from './components/Divider'
 import AppBar from './components/AppBar'
 import GridList from './components/GridList'
 import GridTile from './components/GridTile'
+import Subheader from './components/Subheader'
 
 export {
   Paper,
@@ -75,5 +76,6 @@ export {
   Divider,
   AppBar,
   GridList,
-  GridTile
+  GridTile,
+  Subheader
 }
