@@ -28,6 +28,7 @@ import TableRow from './components/TableRow'
 import TableRowColumn from './components/TableRowColumn'
 import TableHeader from './components/TableHeader'
 import TableHeaderColumn from './components/TableHeaderColumn'
+import Snackbar from './components/Snackbar'
 
 export {
   Paper,
@@ -59,5 +60,6 @@ export {
   TableRow,
   TableRowColumn,
   TableHeader,
-  TableHeaderColumn
+  TableHeaderColumn,
+  Snackbar
 }
