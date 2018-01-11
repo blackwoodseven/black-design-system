@@ -8,5 +8,6 @@ import IconButton from './components/IconButton'
 import Menu from './components/Menu'
 import MenuItem from './components/MenuItem'
 import TextField from './components/TextField'
+import Dialog from './components/Dialog'
 
-export { Paper, Toolbar, ToolbarGroup, ToolbarTitle, FlatButton, RaisedButton, IconButton, Menu, MenuItem, TextField }
+export { Paper, Toolbar, ToolbarGroup, ToolbarTitle, FlatButton, RaisedButton, IconButton, Menu, MenuItem, TextField, Dialog }
