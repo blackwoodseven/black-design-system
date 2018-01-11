@@ -13,6 +13,8 @@ import Dialog from './components/Dialog'
 import Popover from './components/Popover'
 import Card from './components/Card'
 import CardActions from './components/CardActions'
+import CardHeader from './components/CardHeader'
+import CardText from './components/CardText'
 
 export {
   Paper,
@@ -29,5 +31,7 @@ export {
   Popover,
   FloatingActionButton,
   Card,
-  CardActions
+  CardActions,
+  CardHeader,
+  CardText
 }
