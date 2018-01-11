@@ -22,6 +22,12 @@ import List from './components/List'
 import ListItem from './components/ListItem'
 import Tabs from './components/Tabs'
 import Tab from './components/Tab'
+import Table from './components/Table'
+import TableBody from './components/TableBody'
+import TableRow from './components/TableRow'
+import TableRowColumn from './components/TableRowColumn'
+import TableHeader from './components/TableHeader'
+import TableHeaderColumn from './components/TableHeaderColumn'
 
 export {
   Paper,
@@ -47,5 +53,11 @@ export {
   List,
   ListItem,
   Tabs,
-  Tab
+  Tab,
+  Table,
+  TableBody,
+  TableRow,
+  TableRowColumn,
+  TableHeader,
+  TableHeaderColumn
 }
