@@ -8,6 +8,7 @@ import IconButton from './components/IconButton'
 import FloatingActionButton from './components/FloatingActionButton'
 import Menu from './components/Menu'
 import MenuItem from './components/MenuItem'
+import IconMenu from './components/IconMenu'
 import TextField from './components/TextField'
 import Dialog from './components/Dialog'
 import Popover from './components/Popover'
@@ -28,6 +29,7 @@ export {
   IconButton,
   Menu,
   MenuItem,
+  IconMenu,
   TextField,
   Dialog,
   Popover,
