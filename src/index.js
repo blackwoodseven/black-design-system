@@ -37,6 +37,7 @@ import AppBar from './components/AppBar'
 import GridList from './components/GridList'
 import GridTile from './components/GridTile'
 import Subheader from './components/Subheader'
+import RefreshIndicator from './components/RefreshIndicator'
 
 export {
   Paper,
@@ -77,5 +78,6 @@ export {
   AppBar,
   GridList,
   GridTile,
-  Subheader
+  Subheader,
+  RefreshIndicator
 }
