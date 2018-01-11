@@ -34,6 +34,8 @@ import LinearProgress from './components/LinearProgress'
 import DropDownMenu from './components/DropDownMenu'
 import Divider from './components/Divider'
 import AppBar from './components/AppBar'
+import GridList from './components/GridList'
+import GridTile from './components/GridTile'
 
 export {
   Paper,
@@ -71,5 +73,7 @@ export {
   LinearProgress,
   DropDownMenu,
   Divider,
-  AppBar
+  AppBar,
+  GridList,
+  GridTile
 }
