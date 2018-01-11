@@ -3,6 +3,7 @@ import Toolbar from './components/Toolbar'
 import ToolbarGroup from './components/ToolbarGroup'
 import ToolbarTitle from './components/ToolbarTitle'
 import FlatButton from './components/FlatButton'
+import Menu from './components/Menu'
 import MenuItem from './components/MenuItem'
 
-export { RaisedButton, Paper, Toolbar, ToolbarGroup, ToolbarTitle, FlatButton, MenuItem }
+export { Paper, Toolbar, ToolbarGroup, ToolbarTitle, FlatButton, Menu, MenuItem }
