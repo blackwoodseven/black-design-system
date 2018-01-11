@@ -33,6 +33,7 @@ import SelectField from './components/SelectField'
 import LinearProgress from './components/LinearProgress'
 import DropDownMenu from './components/DropDownMenu'
 import Divider from './components/Divider'
+import AppBar from './components/AppBar'
 
 export {
   Paper,
@@ -69,5 +70,6 @@ export {
   SelectField,
   LinearProgress,
   DropDownMenu,
-  Divider
+  Divider,
+  AppBar
 }
