@@ -11,6 +11,8 @@ import MenuItem from './components/MenuItem'
 import TextField from './components/TextField'
 import Dialog from './components/Dialog'
 import Popover from './components/Popover'
+import Card from './components/Card'
+import CardActions from './components/CardActions'
 
 export {
   Paper,
@@ -25,5 +27,7 @@ export {
   TextField,
   Dialog,
   Popover,
-  FloatingActionButton
+  FloatingActionButton,
+  Card,
+  CardActions
 }
