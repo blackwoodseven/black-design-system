@@ -4,8 +4,9 @@ import ToolbarGroup from './components/ToolbarGroup'
 import ToolbarTitle from './components/ToolbarTitle'
 import FlatButton from './components/FlatButton'
 import RaisedButton from './components/RaisedButton'
+import IconButton from './components/IconButton'
 import Menu from './components/Menu'
 import MenuItem from './components/MenuItem'
 import TextField from './components/TextField'
 
-export { Paper, Toolbar, ToolbarGroup, ToolbarTitle, FlatButton, RaisedButton, Menu, MenuItem, TextField }
+export { Paper, Toolbar, ToolbarGroup, ToolbarTitle, FlatButton, RaisedButton, IconButton, Menu, MenuItem, TextField }
