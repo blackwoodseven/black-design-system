@@ -9,6 +9,7 @@ import Menu from './components/Menu'
 import MenuItem from './components/MenuItem'
 import TextField from './components/TextField'
 import Dialog from './components/Dialog'
+import Popover from './components/Popover'
 
 export {
   Paper,
@@ -21,5 +22,6 @@ export {
   Menu,
   MenuItem,
   TextField,
-  Dialog
+  Dialog,
+  Popover
 }
