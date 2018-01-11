@@ -18,6 +18,8 @@ import CardHeader from './components/CardHeader'
 import CardText from './components/CardText'
 import Checkbox from './components/Checkbox'
 import Avatar from './components/Avatar'
+import List from './components/List'
+import ListItem from './components/ListItem'
 
 export {
   Paper,
@@ -39,5 +41,7 @@ export {
   CardHeader,
   CardText,
   Checkbox,
-  Avatar
+  Avatar,
+  List,
+  ListItem
 }
