@@ -12,9 +12,6 @@ import Menu from './index.js'
 
 storiesOf('Menu', module).add('Menu', () => (
   <MuiThemeProvider>
-    <Menu
-      className="Menu"
-    >
-    </Menu>
+    <Menu className="Menu" />
   </MuiThemeProvider>
 ))
