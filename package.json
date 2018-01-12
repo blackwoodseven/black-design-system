@@ -1,6 +1,6 @@
 {
   "name": "black-design-system",
-  "version": "0.2.40",
+  "version": "0.2.41",
   "private": false,
   "license": "BSD-2-Clause-FreeBSD",
   "dependencies": {
