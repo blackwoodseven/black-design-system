@@ -38,6 +38,7 @@ import TextField from './components/TextField'
 import Toolbar from './components/Toolbar'
 import ToolbarGroup from './components/ToolbarGroup'
 import ToolbarTitle from './components/ToolbarTitle'
+import muiThemeable from './components/muiThemeable'
 
 export {
   AppBar,
@@ -79,5 +80,6 @@ export {
   TextField,
   Toolbar,
   ToolbarGroup,
-  ToolbarTitle
+  ToolbarTitle,
+  muiThemeable
 }
