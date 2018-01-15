@@ -38,7 +38,7 @@ import TextField from './components/TextField'
 import Toolbar from './components/Toolbar'
 import ToolbarGroup from './components/ToolbarGroup'
 import ToolbarTitle from './components/ToolbarTitle'
-import { muiThemeable, Colors } from './components/MuiTheme'
+import { muiThemeable, Colors, MuiThemeProvider, getMuiTheme } from './components/MuiTheme'
 
 export {
   AppBar,
@@ -82,5 +82,7 @@ export {
   ToolbarGroup,
   ToolbarTitle,
   muiThemeable,
-  Colors
+  Colors,
+  MuiThemeProvider,
+  getMuiTheme
 }
