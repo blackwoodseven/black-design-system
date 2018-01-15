@@ -5,7 +5,8 @@
   "license": "BSD-2-Clause-FreeBSD",
   "dependencies": {
     "babel-jest": "^22.0.4",
-    "material-ui": "^0.20.0"
+    "material-ui": "^0.20.0",
+    "material-ui-icons": "^1.0.0-beta.17"
   },
   "main": "build/index.js",
   "peerDependencies": {
