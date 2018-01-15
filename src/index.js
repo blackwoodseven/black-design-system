@@ -40,8 +40,6 @@ import ToolbarGroup from './components/ToolbarGroup'
 import ToolbarTitle from './components/ToolbarTitle'
 import muiThemeable from './components/muiThemeable'
 
-import icons from './icons'
-
 export {
   AppBar,
   Avatar,
@@ -83,6 +81,5 @@ export {
   Toolbar,
   ToolbarGroup,
   ToolbarTitle,
-  muiThemeable,
-  icons
+  muiThemeable
 }
