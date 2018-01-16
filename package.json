@@ -39,7 +39,7 @@
     "prepublish": "yarn run build",
     "clean": "rm -rf node_modules/ && rm -rf build/ && yarn install && yarn build",
     "git:prepush": "yarn linter && yarn test",
-    "test": "jest",
+    "test": "jest --silent",
     "linter": "yarn prettier 'src/**/*.{js,jsx,json,css}' --write"
   },
   "files": [
