@@ -39,7 +39,37 @@ import Toolbar from './components/Toolbar'
 import ToolbarGroup from './components/ToolbarGroup'
 import ToolbarTitle from './components/ToolbarTitle'
 import { muiThemeable, Colors, MuiThemeProvider, getMuiTheme } from './components/MuiTheme'
-import { Add } from './icons'
+import {
+  AccountBox,
+  Add,
+  ArrowDropDown,
+  ArrowUpward,
+  AttachMoney,
+  ChevronLeft,
+  Close,
+  DateRange,
+  Delete,
+  Done,
+  EuroSymbol,
+  FileDownload,
+  FilterList,
+  GetApp,
+  GpsNotFixed,
+  Home,
+  InfoOutline,
+  KeyboardArrowDown,
+  KeyboardArrowLeft,
+  KeyboardArrowRight,
+  KeyboardArrowUp,
+  MoreHoriz,
+  MoreVert,
+  PermMedia,
+  Search,
+  Sort,
+  Warning,
+  ZoomIn,
+  ZoomOut
+} from './icons'
 
 export {
   AppBar,
