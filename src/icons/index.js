@@ -14,6 +14,7 @@ import FilterList from 'material-ui/svg-icons/content/filter-list'
 import GetApp from 'material-ui/svg-icons/action/get-app'
 import GpsNotFixed from 'material-ui/svg-icons/device/gps-not-fixed'
 import Home from 'material-ui/svg-icons/action/home'
+import Info from 'material-ui/svg-icons/action/info'
 import InfoOutline from 'material-ui/svg-icons/action/info-outline'
 import KeyboardArrowDown from 'material-ui/svg-icons/hardware/keyboard-arrow-down'
 import KeyboardArrowLeft from 'material-ui/svg-icons/hardware/keyboard-arrow-left'
@@ -45,6 +46,7 @@ export {
   GetApp,
   GpsNotFixed,
   Home,
+  Info,
   InfoOutline,
   KeyboardArrowDown,
   KeyboardArrowLeft,
