@@ -87,7 +87,6 @@ export {
   MuiThemeProvider,
   getMuiTheme,
   AccountBox,
-
   Add,
   ArrowDropDown,
   ArrowUpward,
