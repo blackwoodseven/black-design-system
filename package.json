@@ -1,6 +1,6 @@
 {
   "name": "black-design-system",
-  "version": "0.6.5",
+  "version": "0.6.7",
   "private": false,
   "license": "BSD-2-Clause-FreeBSD",
   "dependencies": {
@@ -9,8 +9,8 @@
   },
   "main": "build",
   "peerDependencies": {
-    "react": "15.2.0",
-    "react-dom": "15.6.1"
+    "react": "15.4.0",
+    "react-dom": "15.4.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -18,13 +18,13 @@
     "babel-preset-env": "^1.6.1",
     "jest": "^22.0.5",
     "prettier": "1.9.2",
-    "react": "15.2.0",
-    "react-dom": "15.6.1",
+    "react": "15.4.0",
+    "react-dom": "15.4.0",
     "react-scripts": "1.0.17"
   },
   "scripts": {
     "preinstall": "if [ -f ./githooks ]; then cp githooks/* .git/hooks/; fi",
-    "postinstall": "rm -rf node_modules/material-ui/svg-icons",
+    "_postinstall": "rm -rf node_modules/material-ui/svg-icons",
     "build": "yarn build:es2015 && yarn build:es2015modules",
     "build:es2015": "NODE_ENV=production babel ./src --ignore test.js,stories.js,*.md --out-dir ./build --copy-files",
     "build:es2015modules": "NODE_ENV=production BABEL_ENV=modules babel ./src/index.js --out-file ./build/index.es.js",
