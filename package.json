@@ -1,17 +1,16 @@
 {
   "name": "black-design-system",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "private": false,
   "license": "BSD-2-Clause-FreeBSD",
   "dependencies": {
     "babel-jest": "^22.0.4",
-    "material-ui": "^0.20.0@^1.0.0-beta.16",
-    "material-ui-icons": "1.0.0-beta.36"
+    "material-ui": "0.20.0"
   },
   "main": "build",
   "peerDependencies": {
-    "react": "^15.2.0",
-    "react-dom": "^15.6.1"
+    "react": "15.2.0",
+    "react-dom": "15.6.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -19,8 +18,8 @@
     "babel-preset-env": "^1.6.1",
     "jest": "^22.0.5",
     "prettier": "1.9.2",
-    "react": "^15.2.0",
-    "react-dom": "^15.6.1",
+    "react": "15.2.0",
+    "react-dom": "15.6.1",
     "react-scripts": "1.0.17"
   },
   "scripts": {
