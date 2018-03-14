@@ -39,7 +39,7 @@ import Toolbar from './components/Toolbar'
 import ToolbarGroup from './components/ToolbarGroup'
 import ToolbarTitle from './components/ToolbarTitle'
 import { muiThemeable, Colors, MuiThemeProvider, getMuiTheme } from './components/MuiTheme'
-import { Add } from './components/icons'
+import * as Icons from './icons'
 
 export {
   AppBar,
@@ -86,5 +86,5 @@ export {
   Colors,
   MuiThemeProvider,
   getMuiTheme,
-  Add
+  Icons
 }
